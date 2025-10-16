@@ -10,7 +10,7 @@ body {
 
 #game-box {
   /* The game box will have position relative only so we can position elements inside related to the game box (using position absolute) */
-  position: relative; 
+  position: relative;
 
   background-color: black;
   width: 400px;
@@ -28,12 +28,12 @@ body {
 
   /* position: absolute allows to to access properties top and left to position the element (ball) relative to the parent (game box) */
   position: absolute;
-  
+
   /* top means the distance of the element (ball) from the top side of the parent (game box)*/
-  top: 30px; 
+  top: 30px;
 
   /* left means the distance of the element (ball) from the left side of the parent (game box) */
-  left: 30px; 
+  left: 30px;
 }
 
 #paddle {
